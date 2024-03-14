@@ -10,10 +10,12 @@ if direction == "left":
 else:
     print("You fell into a hole. Game over!")
 
-if transport == "swim":
-    print("You get attacked by an angry trout. Game over!")
-else:
+if transport == "wait":
     colour = input("You arive at the island unharmed. There is a house with 3 doors.\n   One red, one yellow, and one blue.\n Which colour do you chose?\n")
+else:
+    print("You get attacked by an angry trout. Game over!")
+
+    
 
 if colour == "red":
     print("It's a room full of fire. Game over!")
